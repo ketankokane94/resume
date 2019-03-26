@@ -1,0 +1,167 @@
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/ketankokane94}{\Large Ketan Balbhim Kokane}} & Email : \href{mailto:kk7471@rit.edu}{kk7471@rit.edu}\\
+  \href{https://github.com/ketankokane94}{https://github.com/ketankokane94} & Mobile : +1-585-747-6305 \\
+\end{tabular*}
+
+% SUMMARY
+\section{Summary}
+{
+Highly motivated and curious software developer, with  2 years experience in software industry. Seeking Internship opportunity for Summer 2019.
+}
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rochester Institute of Technology}{Rochester, NY}
+      {Master of Science in Computer Science;  GPA: 3.67}{Aug. 2018 -- ongoing}
+      
+    {Related courses:} {Foundations of algorithms, Introduction to Big Data, Foundations of Intelligent Systems, Advanced Object-Oriented Programming.}
+    \resumeSubheading
+      {FR. Conceicao Rodrigues College of Engineering}{Mumbai, India}
+      {Bachelor of Engineering in Computer Engineering;}{Aug. 2012 -- July. 2016}
+  
+  {Related courses:} {Data Structures, Web application development, System Design, Introduction to Artificial Intelligence }
+  \resumeSubHeadingListEnd
+
+% SKILLS
+\section{Skills}
+\resumeSubHeadingListStart
+\resumeItem
+{programming/scripting languages}{Java, C\#, python, SQL, Javascript, Typescript }
+\resumeItem
+{Frameworks}{.NET, AngularJS, Angular 5, NodeJS, Tensorflow, Spacy, Karma, Jasmine, Nunit}
+\resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------------
+\section{work Experience}
+  \resumeSubHeadingListStart
+ \resumeSubheading
+      {Rochester Institute of Technology}{Rochester, NY}
+      {Teaching Assistant for Advanced Object Oriented programming concepts course (Java)} {Jan. 2019 - present}
+      \resumeItemListStart
+      \resumeItem{Design Problem statements}
+      {Assist professor in designing the assignments}
+      \resumeItem{Grader}
+          {Responsible for grading weekly coding assignments of the class and interacting with class to discuss regarding the best possible design for given problem statement}
+      \resumeItemListEnd
+      
+    
+    \resumeSubheading
+      {BNP Paribas India Solutions}{Mumbai, India}
+      {Software Engineer, Full stack web developer}{June 2016 - June 2018}
+      \resumeItemListStart
+        \resumeItem{SQL Indexing}
+          {Analyzed the indexes of size 250GB used by the project resulting in removal of unused indexes of 80GB}
+        \resumeItem{Migration of .NET to AngularJS} {Assisted in migration of project from .NET to AngularJS 1.4}
+        
+        \resumeItem{Release Co-ordination}
+        {Lead the requirement gathering meeting with Business analyst, curated poker sizing meeting of those requirements and assisted in designing particular solution to requirement}
+         
+     \resumeItem
+     {Machine Learning}{Conducted a Master Class on introduction to machine learning attended by senior managers and worked multiple POC's to show its use in project}
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+%-----------Projects-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  \resumeItem{Berzerk Game Agent}
+      {Developed an Artificial software agent capable of playing the game of berzerk, in pursuit of understanding how to analyze, understand environments in which artificial agents needs to act and how to formulate the problem so the agent can try solve it.}
+  
+   
+    \resumeItem{Machine Learning BOT}
+      {Designed and crafted a generic agent which based on the given data-set and desired actions generates a machine learning model which can predict or generate the desired result.The resultant models could be categorized as classifier or recommender model}
+     
+      
+    
+
+  \resumeSubHeadingListEnd
+  
+%-----------Accolades-----------------
+\section{Accolades}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Hackathon Winner}
+      {Awarded Most disruptive team of API First Hackathon, Paris. Wherein problem statement was to develop a generic solution for data problems of an organization and expose it as Saas}
+    \resumeSubItem{Bravo Achiever Award}
+      {Felicitated for consistently delivering quality software solutions within stipulated time }
+    \resumeSubItem{Idea Contributor}
+      {Recognized as one of the top 5 idea contributor for providing innovative solutions to problem posted on the organization's forum.}
+
+  \resumeSubHeadingListEnd
+
+%
+
+%-------------------------------------------
+\end{document}
